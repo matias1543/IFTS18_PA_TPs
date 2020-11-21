@@ -61,7 +61,7 @@ def menu():
     print("*  8. Guardar registros en un archivo csv.    ***")
     print("*  9. Guardar registros en la base de datos.  ***")
     print("*  10. Ver registros de la base de datos.     ***")
-    print("*  11. API POST")
+    print("*  11. API GET")
     print("*  12. Salir.                                 ***")
     print("*************************************************")
 
