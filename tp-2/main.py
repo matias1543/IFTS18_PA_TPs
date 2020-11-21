@@ -62,7 +62,7 @@ while True:
         concurso.ver_registros_db()
         input("\nPresionar un boton para continuar...")
     elif opcion == 11:  
-        concurso.api_post()
+        concurso.api_get()
         input("\nPresionar un boton para continuar...")
     elif opcion == 12:
         break
