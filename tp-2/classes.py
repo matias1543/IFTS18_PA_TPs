@@ -123,7 +123,7 @@ class Concurso:
         for registro in registros:
             print(registro)
 
-    def api_post(self):
+    def api_get(self):
         lista_ordenada = self.ordenar_lista_mejor_disparo(self.participantes)
 
         if lista_ordenada == False:
