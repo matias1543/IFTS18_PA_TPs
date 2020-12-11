@@ -29,10 +29,12 @@ while True:
             elif not lista_participantes:
                 funciones.agregar_participante(lista_participantes, nro_partic)
             else:
+                boolean = True
                 for participante in lista_participantes:
                     if participante.nro_participante == nro_partic:
                         print("El 'nro de participante' ingresado ya se encuentra en el sistema.\nPorfavor, ingresar otro número.")
-                else:
+                        boolean = False
+                if boolean:
                     funciones.agregar_participante(lista_participantes, nro_partic)
     elif opcion == 2:
         concurso.ver_registros()
